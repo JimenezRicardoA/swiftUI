@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3304F0C2D96394700EB07C9 /* MainTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3304F0B2D96394700EB07C9 /* MainTracker.swift */; };
+		C34F1B782D77E40D00055312 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C34F1B7A2D77E40D00055312 /* Localizable.strings */; };
+		C39760722D8CF41F005F5C5F /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = C39760712D8CF41F005F5C5F /* Lottie */; };
+		C39760762D8CF49D005F5C5F /* LottieAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39760752D8CF49D005F5C5F /* LottieAnimationView.swift */; };
+		C39760792D8CF8D3005F5C5F /* animation.json in Resources */ = {isa = PBXBuildFile; fileRef = C39760782D8CF8D3005F5C5F /* animation.json */; };
+		C3A516AE2D9221A600CC7966 /* WaterTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A516AD2D9221A600CC7966 /* WaterTrackerView.swift */; };
+		C3A516B02D92236F00CC7966 /* WaterTrackerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A516AF2D92236F00CC7966 /* WaterTrackerViewModel.swift */; };
+		C3B49BCD2D8BA2B200ADCFC2 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B49BCC2D8BA2B200ADCFC2 /* ListModel.swift */; };
+		C3B49BCF2D8BA36800ADCFC2 /* ItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B49BCE2D8BA36800ADCFC2 /* ItemViewModel.swift */; };
+		C3B49BD12D8BA62600ADCFC2 /* ListExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B49BD02D8BA62600ADCFC2 /* ListExampleView.swift */; };
+		C3B49BD52D8BA85200ADCFC2 /* ListDetailExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B49BD42D8BA85200ADCFC2 /* ListDetailExampleView.swift */; };
+		C3B784E72D94DCE9003814D9 /* TrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B784E62D94DCE9003814D9 /* TrackerView.swift */; };
+		C3CCB7AD2D64183900795BB5 /* sumview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CCB7AC2D64183900795BB5 /* sumview.swift */; };
+		C3CCB7AF2D6418E000795BB5 /* SumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CCB7AE2D6418DF00795BB5 /* SumViewModel.swift */; };
+		C3CCB7B12D641A5400795BB5 /* UIAlertControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CCB7B02D641A5400795BB5 /* UIAlertControllerWrapper.swift */; };
+		C3CCB7B42D641D7A00795BB5 /* ConversorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CCB7B32D641D7A00795BB5 /* ConversorView.swift */; };
 		C3EF24C22D5ECF9E00E27CBB /* mobileSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF24C12D5ECF9E00E27CBB /* mobileSwiftUIApp.swift */; };
 		C3EF24C42D5ECF9E00E27CBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF24C32D5ECF9E00E27CBB /* ContentView.swift */; };
-		C3EF24C62D5ECFA100E27CBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3EF24C52D5ECFA100E27CBB /* Assets.xcassets */; };
-		C3EF24C92D5ECFA100E27CBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3EF24C82D5ECFA100E27CBB /* Preview Assets.xcassets */; };
+		C3EF24C62D5ECFA100E27CBB /* 	.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3EF24C52D5ECFA100E27CBB /* 	.xcassets */; };
 		C3EF24D32D5ECFA200E27CBB /* mobileSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF24D22D5ECFA200E27CBB /* mobileSwiftUITests.swift */; };
 		C3EF24DD2D5ECFA200E27CBB /* mobileSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF24DC2D5ECFA200E27CBB /* mobileSwiftUIUITests.swift */; };
 		C3EF24DF2D5ECFA200E27CBB /* mobileSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF24DE2D5ECFA200E27CBB /* mobileSwiftUIUITestsLaunchTests.swift */; };
 		C3EF24EC2D5ED2F400E27CBB /* second view.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF24EB2D5ED2F400E27CBB /* second view.swift */; };
+		C3F9A3972D768B3700E3D106 /* LoginSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F9A3962D768B3700E3D106 /* LoginSwiftUIView.swift */; };
+		C3FBDD232D656C06009FC400 /* ConverterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FBDD222D656C06009FC400 /* ConverterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,17 +52,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C3304F0B2D96394700EB07C9 /* MainTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTracker.swift; sourceTree = "<group>"; };
+		C34F1B792D77E40D00055312 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C34F1B7B2D77E40F00055312 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C39760752D8CF49D005F5C5F /* LottieAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationView.swift; sourceTree = "<group>"; };
+		C39760782D8CF8D3005F5C5F /* animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation.json; sourceTree = "<group>"; };
+		C3A516AD2D9221A600CC7966 /* WaterTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTrackerView.swift; sourceTree = "<group>"; };
+		C3A516AF2D92236F00CC7966 /* WaterTrackerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTrackerViewModel.swift; sourceTree = "<group>"; };
+		C3B49BCC2D8BA2B200ADCFC2 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		C3B49BCE2D8BA36800ADCFC2 /* ItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewModel.swift; sourceTree = "<group>"; };
+		C3B49BD02D8BA62600ADCFC2 /* ListExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExampleView.swift; sourceTree = "<group>"; };
+		C3B49BD42D8BA85200ADCFC2 /* ListDetailExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailExampleView.swift; sourceTree = "<group>"; };
+		C3B784E62D94DCE9003814D9 /* TrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerView.swift; sourceTree = "<group>"; };
+		C3CCB7AC2D64183900795BB5 /* sumview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sumview.swift; sourceTree = "<group>"; };
+		C3CCB7AE2D6418DF00795BB5 /* SumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumViewModel.swift; sourceTree = "<group>"; };
+		C3CCB7B02D641A5400795BB5 /* UIAlertControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertControllerWrapper.swift; sourceTree = "<group>"; };
+		C3CCB7B32D641D7A00795BB5 /* ConversorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversorView.swift; sourceTree = "<group>"; };
 		C3EF24BE2D5ECF9E00E27CBB /* mobileSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobileSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3EF24C12D5ECF9E00E27CBB /* mobileSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobileSwiftUIApp.swift; sourceTree = "<group>"; };
 		C3EF24C32D5ECF9E00E27CBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C3EF24C52D5ECFA100E27CBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C3EF24C82D5ECFA100E27CBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C3EF24C52D5ECFA100E27CBB /* 	.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "\t.xcassets"; sourceTree = "<group>"; };
 		C3EF24CE2D5ECFA200E27CBB /* mobileSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobileSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3EF24D22D5ECFA200E27CBB /* mobileSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobileSwiftUITests.swift; sourceTree = "<group>"; };
 		C3EF24D82D5ECFA200E27CBB /* mobileSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobileSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3EF24DC2D5ECFA200E27CBB /* mobileSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobileSwiftUIUITests.swift; sourceTree = "<group>"; };
 		C3EF24DE2D5ECFA200E27CBB /* mobileSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobileSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C3EF24EB2D5ED2F400E27CBB /* second view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "second view.swift"; sourceTree = "<group>"; };
+		C3F9A3962D768B3700E3D106 /* LoginSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSwiftUIView.swift; sourceTree = "<group>"; };
+		C3FBDD222D656C06009FC400 /* ConverterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C39760722D8CF41F005F5C5F /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,9 +108,117 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C39760732D8CF470005F5C5F /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				C39760742D8CF483005F5C5F /* Views */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		C39760742D8CF483005F5C5F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C39760752D8CF49D005F5C5F /* LottieAnimationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C39760772D8CF854005F5C5F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C39760782D8CF8D3005F5C5F /* animation.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C398464E2D8A5AF4009AB0B9 /* SecondPartial */ = {
+			isa = PBXGroup;
+			children = (
+				C3A516AA2D9220C400CC7966 /* WaterTracker */,
+				C39760732D8CF470005F5C5F /* Animations */,
+				C398464F2D8A5B16009AB0B9 /* DataStructures */,
+			);
+			path = SecondPartial;
+			sourceTree = "<group>";
+		};
+		C398464F2D8A5B16009AB0B9 /* DataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				C39846522D8A5BA8009AB0B9 /* View */,
+				C39846512D8A5B4C009AB0B9 /* ViewModel */,
+				C39846502D8A5B28009AB0B9 /* Model */,
+			);
+			path = DataStructures;
+			sourceTree = "<group>";
+		};
+		C39846502D8A5B28009AB0B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3B49BCC2D8BA2B200ADCFC2 /* ListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C39846512D8A5B4C009AB0B9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C3B49BCE2D8BA36800ADCFC2 /* ItemViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C39846522D8A5BA8009AB0B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C3B49BD02D8BA62600ADCFC2 /* ListExampleView.swift */,
+				C3B49BD42D8BA85200ADCFC2 /* ListDetailExampleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C3A516AA2D9220C400CC7966 /* WaterTracker */ = {
+			isa = PBXGroup;
+			children = (
+				C3A516AC2D92217400CC7966 /* WaterTrackerViewModel */,
+				C3A516AB2D92216600CC7966 /* Views */,
+			);
+			path = WaterTracker;
+			sourceTree = "<group>";
+		};
+		C3A516AB2D92216600CC7966 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C3A516AD2D9221A600CC7966 /* WaterTrackerView.swift */,
+				C3B784E62D94DCE9003814D9 /* TrackerView.swift */,
+				C3304F0B2D96394700EB07C9 /* MainTracker.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C3A516AC2D92217400CC7966 /* WaterTrackerViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C3A516AF2D92236F00CC7966 /* WaterTrackerViewModel.swift */,
+			);
+			path = WaterTrackerViewModel;
+			sourceTree = "<group>";
+		};
+		C3CCB7B22D641D0900795BB5 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				C3CCB7B32D641D7A00795BB5 /* ConversorView.swift */,
+				C3FBDD222D656C06009FC400 /* ConverterViewModel.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		C3EF24B52D5ECF9E00E27CBB = {
 			isa = PBXGroup;
 			children = (
+				C39760772D8CF854005F5C5F /* Resources */,
+				C34F1B7A2D77E40D00055312 /* Localizable.strings */,
+				C3F9A3952D768B0100E3D106 /* CookBook */,
 				C3EF24EB2D5ED2F400E27CBB /* second view.swift */,
 				C3EF24C02D5ECF9E00E27CBB /* mobileSwiftUI */,
 				C3EF24D12D5ECFA200E27CBB /* mobileSwiftUITests */,
@@ -97,20 +240,15 @@
 		C3EF24C02D5ECF9E00E27CBB /* mobileSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				C3CCB7B22D641D0900795BB5 /* New Group */,
 				C3EF24C12D5ECF9E00E27CBB /* mobileSwiftUIApp.swift */,
 				C3EF24C32D5ECF9E00E27CBB /* ContentView.swift */,
-				C3EF24C52D5ECFA100E27CBB /* Assets.xcassets */,
-				C3EF24C72D5ECFA100E27CBB /* Preview Content */,
+				C3EF24C52D5ECFA100E27CBB /* 	.xcassets */,
+				C3CCB7AC2D64183900795BB5 /* sumview.swift */,
+				C3CCB7AE2D6418DF00795BB5 /* SumViewModel.swift */,
+				C3CCB7B02D641A5400795BB5 /* UIAlertControllerWrapper.swift */,
 			);
 			path = mobileSwiftUI;
-			sourceTree = "<group>";
-		};
-		C3EF24C72D5ECFA100E27CBB /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				C3EF24C82D5ECFA100E27CBB /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		C3EF24D12D5ECFA200E27CBB /* mobileSwiftUITests */ = {
@@ -130,6 +268,15 @@
 			path = mobileSwiftUIUITests;
 			sourceTree = "<group>";
 		};
+		C3F9A3952D768B0100E3D106 /* CookBook */ = {
+			isa = PBXGroup;
+			children = (
+				C398464E2D8A5AF4009AB0B9 /* SecondPartial */,
+				C3F9A3962D768B3700E3D106 /* LoginSwiftUIView.swift */,
+			);
+			path = CookBook;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +293,9 @@
 			dependencies = (
 			);
 			name = mobileSwiftUI;
+			packageProductDependencies = (
+				C39760712D8CF41F005F5C5F /* Lottie */,
+			);
 			productName = mobileSwiftUI;
 			productReference = C3EF24BE2D5ECF9E00E27CBB /* mobileSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -216,8 +366,12 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = C3EF24B52D5ECF9E00E27CBB;
+			packageReferences = (
+				C39760702D8CF41F005F5C5F /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
 			productRefGroup = C3EF24BF2D5ECF9E00E27CBB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,8 +388,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3EF24C92D5ECFA100E27CBB /* Preview Assets.xcassets in Resources */,
-				C3EF24C62D5ECFA100E27CBB /* Assets.xcassets in Resources */,
+				C3EF24C62D5ECFA100E27CBB /* 	.xcassets in Resources */,
+				C39760792D8CF8D3005F5C5F /* animation.json in Resources */,
+				C34F1B782D77E40D00055312 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +415,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3CCB7AD2D64183900795BB5 /* sumview.swift in Sources */,
+				C3A516B02D92236F00CC7966 /* WaterTrackerViewModel.swift in Sources */,
+				C3CCB7B42D641D7A00795BB5 /* ConversorView.swift in Sources */,
+				C3304F0C2D96394700EB07C9 /* MainTracker.swift in Sources */,
+				C39760762D8CF49D005F5C5F /* LottieAnimationView.swift in Sources */,
+				C3F9A3972D768B3700E3D106 /* LoginSwiftUIView.swift in Sources */,
+				C3B49BCF2D8BA36800ADCFC2 /* ItemViewModel.swift in Sources */,
 				C3EF24C42D5ECF9E00E27CBB /* ContentView.swift in Sources */,
+				C3CCB7B12D641A5400795BB5 /* UIAlertControllerWrapper.swift in Sources */,
 				C3EF24C22D5ECF9E00E27CBB /* mobileSwiftUIApp.swift in Sources */,
+				C3CCB7AF2D6418E000795BB5 /* SumViewModel.swift in Sources */,
 				C3EF24EC2D5ED2F400E27CBB /* second view.swift in Sources */,
+				C3B784E72D94DCE9003814D9 /* TrackerView.swift in Sources */,
+				C3B49BD52D8BA85200ADCFC2 /* ListDetailExampleView.swift in Sources */,
+				C3A516AE2D9221A600CC7966 /* WaterTrackerView.swift in Sources */,
+				C3FBDD232D656C06009FC400 /* ConverterViewModel.swift in Sources */,
+				C3B49BCD2D8BA2B200ADCFC2 /* ListModel.swift in Sources */,
+				C3B49BD12D8BA62600ADCFC2 /* ListExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +467,18 @@
 			targetProxy = C3EF24D92D5ECFA200E27CBB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C34F1B7A2D77E40D00055312 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C34F1B792D77E40D00055312 /* en */,
+				C34F1B7B2D77E40F00055312 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C3EF24E02D5ECFA200E27CBB /* Debug */ = {
@@ -586,6 +768,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C39760702D8CF41F005F5C5F /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C39760712D8CF41F005F5C5F /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C39760702D8CF41F005F5C5F /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C3EF24B62D5ECF9E00E27CBB /* Project object */;
 }

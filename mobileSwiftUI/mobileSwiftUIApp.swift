@@ -11,7 +11,7 @@ import SwiftUI
 struct mobileSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTracker()
         }
     }
 }
