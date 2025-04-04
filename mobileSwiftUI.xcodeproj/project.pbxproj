@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C3304F0C2D96394700EB07C9 /* MainTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3304F0B2D96394700EB07C9 /* MainTracker.swift */; };
 		C34F1B782D77E40D00055312 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C34F1B7A2D77E40D00055312 /* Localizable.strings */; };
+		C39424002D9F697300DD39CC /* AuthentificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39423FF2D9F697300DD39CC /* AuthentificationViewModel.swift */; };
 		C39760722D8CF41F005F5C5F /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = C39760712D8CF41F005F5C5F /* Lottie */; };
 		C39760762D8CF49D005F5C5F /* LottieAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39760752D8CF49D005F5C5F /* LottieAnimationView.swift */; };
 		C39760792D8CF8D3005F5C5F /* animation.json in Resources */ = {isa = PBXBuildFile; fileRef = C39760782D8CF8D3005F5C5F /* animation.json */; };
@@ -55,6 +56,7 @@
 		C3304F0B2D96394700EB07C9 /* MainTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTracker.swift; sourceTree = "<group>"; };
 		C34F1B792D77E40D00055312 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C34F1B7B2D77E40F00055312 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C39423FF2D9F697300DD39CC /* AuthentificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthentificationViewModel.swift; sourceTree = "<group>"; };
 		C39760752D8CF49D005F5C5F /* LottieAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationView.swift; sourceTree = "<group>"; };
 		C39760782D8CF8D3005F5C5F /* animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation.json; sourceTree = "<group>"; };
 		C3A516AD2D9221A600CC7966 /* WaterTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterTrackerView.swift; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				C3A516AF2D92236F00CC7966 /* WaterTrackerViewModel.swift */,
+				C39423FF2D9F697300DD39CC /* AuthentificationViewModel.swift */,
 			);
 			path = WaterTrackerViewModel;
 			sourceTree = "<group>";
@@ -420,6 +423,7 @@
 				C3CCB7B42D641D7A00795BB5 /* ConversorView.swift in Sources */,
 				C3304F0C2D96394700EB07C9 /* MainTracker.swift in Sources */,
 				C39760762D8CF49D005F5C5F /* LottieAnimationView.swift in Sources */,
+				C39424002D9F697300DD39CC /* AuthentificationViewModel.swift in Sources */,
 				C3F9A3972D768B3700E3D106 /* LoginSwiftUIView.swift in Sources */,
 				C3B49BCF2D8BA36800ADCFC2 /* ItemViewModel.swift in Sources */,
 				C3EF24C42D5ECF9E00E27CBB /* ContentView.swift in Sources */,
@@ -610,6 +614,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"mobileSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -638,6 +643,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"mobileSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
