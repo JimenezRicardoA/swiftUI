@@ -12,7 +12,6 @@ struct QRScanViewModel: UIViewControllerRepresentable {
     }
 
     func updateUIViewController(_ uiViewController: UIViewController, context: Context) {
-        // No necesita actualizar nada por ahora
     }
 }
 
@@ -21,6 +20,7 @@ class QRScannerController: NSObject, ObservableObject, AVCaptureMetadataOutputOb
 
     let session = AVCaptureSession()
     private var previewLayer: AVCaptureVideoPreviewLayer?
+    private var output: AVCaptureMetadataOutput?
 
     override init() {
         super.init()
@@ -38,8 +38,17 @@ class QRScannerController: NSObject, ObservableObject, AVCaptureMetadataOutputOb
         if session.canAddOutput(output) {
             session.addOutput(output)
             output.setMetadataObjectsDelegate(self, queue: DispatchQueue.main)
-            output.metadataObjectTypes = [.qr]
+            output.metadataObjectTypes = []
+            self.output = output
         }
+    }
+
+    func startScanning() {
+        output?.metadataObjectTypes = [.qr]
+    }
+
+    func stopScanning() {
+        output?.metadataObjectTypes = []
     }
 
     func metadataOutput(_ output: AVCaptureMetadataOutput, didOutput metadataObjects: [AVMetadataObject], from connection: AVCaptureConnection) {
@@ -47,7 +56,7 @@ class QRScannerController: NSObject, ObservableObject, AVCaptureMetadataOutputOb
            object.type == .qr,
            let code = object.stringValue {
             scannedCode = code
-            stop()
+            stopScanning()
         }
     }
 
@@ -75,4 +84,3 @@ class QRScannerController: NSObject, ObservableObject, AVCaptureMetadataOutputOb
         view.layer.addSublayer(previewLayer!)
     }
 }
-

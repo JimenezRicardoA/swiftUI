@@ -33,6 +33,13 @@ struct QRScannerView: View {
                 Spacer()
                 
                 if scanner.scannedCode.isEmpty {
+                    Button("Scann") {
+                        scanner.startScanning()
+                    }
+                    .padding()
+                    .background(Color.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
                     
                 } else {
                     Button("Reescanear código QR") {
